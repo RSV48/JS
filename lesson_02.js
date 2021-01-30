@@ -65,7 +65,46 @@ else if (a < 0 && b < 0)
     alert('a и b <= 0. Произведение равно:' + (a * b));
 else
     alert('a и b разных знаков. Сумма равна:' + (a + b));
+/**
+ * 4. Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15.
+ */
 
+let a = Math.floor(Math.random() * (15)) + 1;
+alert(a)
+// switch (a) {
+//     case 0:
+//         alert(a++);
+//     case 1:
+//         alert(a++)
+//     case 2:
+//         alert(a++)
+//     case 3:
+//         alert(a++)
+//     case 4:
+//         alert(a++)
+//     case 5:
+//         alert(a++)
+//     case 6:
+//         alert(a++)
+//     case 7:
+//         alert(a++)
+//     case 8:
+//         alert(a++)
+//     case 9:
+//         alert(a++)
+//     case 10:
+//         alert(a++)
+//     case 11:
+//         alert(a++)
+//     case 12:
+//         alert(a++)
+//     case 13:
+//         alert(a++)
+//     case 14:
+//         alert(a++)
+//     case 15:
+//         alert(a++)
+// }
 /**
  * 5. Реализовать основные 4 арифметические операции в виде
  * функций с двумя параметрами. Обязательно использовать
