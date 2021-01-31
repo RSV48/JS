@@ -24,4 +24,4 @@ const basket = [
     ['мясо', 450, 1.5]
 ]
 
-console.log('Стоиомсть корзины: ', countBasketPrice(basket))
+console.log('Стоимость корзины: ', countBasketPrice(basket))
